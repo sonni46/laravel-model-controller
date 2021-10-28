@@ -16,7 +16,7 @@
         @include('partials.header')
       </div>
       <div>
-        @yield('movis')
+        @yield('movies')
       </div>
       <div>
         @include('partials.footer')

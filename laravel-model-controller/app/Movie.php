@@ -4,7 +4,8 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Movi extends Model
+
+class Movie extends Model
 {
     //
 }
