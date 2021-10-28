@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  text-align: center;
+}
+.content ul {
+  text-align: center;
+  list-style: none;
+}
+.content ul a {
+  text-decoration: none;
+}
+.content ul .card {
+  padding: 20px;
+  border: 1px solid #6c6cdf;
+}

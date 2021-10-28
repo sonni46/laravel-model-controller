@@ -4,15 +4,15 @@
     
 
 
-@section('movies')
-    <h1>movis</h1>
+@section('content')
+    <h1>Movis</h1>
     <div>
-        <div>
-            <ul>
+        <div class="">
+            <ul >
             @foreach ($dbMovies as $movi)
                <li>
-                    <div>
-                        <a href=""><h2>{{$movi["title"]}}</h2></a>
+                    <div class="card">
+                        <a href="{{route('pagina-movie', ['id' => $movi['id']])}}"><h2>{{$movi["title"]}}</h2></a>
                         <h3>{{$movi["date"]}}</h3>
                         <h3>{{$movi["vote"]}}</h3>
                     </div>
